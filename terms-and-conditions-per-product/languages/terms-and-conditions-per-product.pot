@@ -1,0 +1,389 @@
+# Copyright (C) 2024 Terms Per Product
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Terms and Conditions Per Product 1.2.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/terms-and-conditions-per-product\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-24T06:50:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: terms-and-conditions-per-product\n"
+
+#. Plugin Name of the plugin
+msgid "Terms and Conditions Per Product"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://tacpp-pro.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Set custom Terms and Conditions per WooCommerce product, category or tag and display them on the checkout page."
+msgstr ""
+
+#. Author of the plugin
+msgid "Terms Per Product"
+msgstr ""
+
+#: app/main/class-main.php:152
+#: app/main/class-tacpp4-terms-conditions-per-product.php:190
+msgid "Custom Terms and Condition Page (URL)"
+msgstr ""
+
+#: app/main/class-main.php:247
+#: app/main/class-tacpp4-terms-conditions-per-product.php:337
+#: app/main/class-tacpp4-terms-conditions-per-product.php:745
+msgid "of"
+msgstr ""
+
+#: app/main/class-main.php:285
+#: app/main/class-tacpp4-terms-conditions-modal.php:147
+#: app/main/class-tacpp4-terms-conditions-per-product.php:389
+#: app/main/class-tacpp4-terms-conditions-per-product.php:797
+#: app/main/class-tacpp4-terms-conditions-settings.php:112
+msgid "Terms and Conditions"
+msgstr ""
+
+#: app/main/class-main.php:364
+#: app/main/class-tacpp4-terms-conditions-per-product.php:611
+msgid "Please <strong>read and accept</strong> the Terms and Conditions of"
+msgstr ""
+
+#: app/main/class-main.php:402
+#: app/main/class-tacpp4-terms-conditions-per-product.php:648
+msgid "Terms And Conditions URL"
+msgstr ""
+
+#: app/main/class-main.php:408
+#: app/main/class-tacpp4-terms-conditions-per-product.php:210
+#: app/main/class-tacpp4-terms-conditions-per-product.php:654
+msgid "Terms And Conditions Text (You can use [link][/link] tags to select the specific text to link)"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:191
+msgid "S/N"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:192
+msgid "Terms Type"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:193
+msgid "Terms Text & Link"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:206
+msgid "Product"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:209
+msgid "Category"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:212
+msgid "Tag"
+msgstr ""
+
+#. translators: %s: The title of the product/term
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:224
+msgid "View %s"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-accept-log.php:251
+msgid "No user accepted terms were found."
+msgstr ""
+
+#. translators: %s: The plugin's website URL
+#: app/main/class-tacpp4-terms-conditions-admin-notices.php:39
+msgid "Terms and Conditions per product now have a <a href=%s target=\"_blank\">premium version</a> that allows <strong>terms and conditions per product category</strong> as well as opening the terms in a <strong>modal</strong>."
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-admin-notices.php:178
+msgid "<strong>Awesome!</strong> You have added <strong>[number] custom Terms and Conditions</strong> to your products using the <strong>Terms and Conditions Per Product</strong> plugin. Would you <strong>help us spread the word</strong> by giving it a <strong>5-star rating</strong> on WordPress?"
+msgstr ""
+
+#. translators: %s: The WP plugin directory link to reviews
+#: app/main/class-tacpp4-terms-conditions-admin-notices.php:180
+msgid "<a href=\"%s\" target=\"_blank\">Ok, you deserve it.</a>"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-admin-notices.php:181
+msgid "Already did."
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:94
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:103
+msgid "Add the URL of the terms page."
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:134
+msgid "This is available to premium only"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:135
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:144
+msgid "Terms And Conditions Text (You can use [link][/link] tags to mark text as the terms link)"
+msgstr ""
+
+#. translators: %s: Buy URL link
+#: app/main/class-tacpp4-terms-conditions-per-categories.php:165
+#: templates/admin-settings-page.php:29
+msgid "Get the <a href=\"%s\">premium version</a> now!"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-per-product.php:306
+msgid "* To continue, <strong>please review</strong> the Terms and Conditions by <strong>clicking the term's link</strong> before checking the checkbox."
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:113
+msgid "Terms of Use"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:190
+msgid "Enable this option to ensure the users open the terms and conditions link (if one exists) before completing the checkout process. %s"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:201
+msgid "Enable this option to display the terms and conditions of a product on the product's single page. %s"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:208
+msgid "Enable this option to enable users to view the terms and conditions in a modal window, ensuring that they can read and accept them without leaving the current page or losing their focus.  %s"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:215
+msgid "Enable this option to enable users to view the default WooCommerce terms and conditions in a modal window.  %s"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:222
+msgid "Enable this option to log the user's terms and conditions acceptance and display it on the order's edit page.  %s"
+msgstr ""
+
+#. translators: %s: Image for settings
+#: app/main/class-tacpp4-terms-conditions-settings.php:229
+msgid "Enable this option to hide the default WooCommerce terms from the checkout page when custom terms exist.  %s"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:240
+msgid "Configure Terms and Conditions per Product"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:247
+msgid "Ensure users open the terms' link before purchase"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:257
+msgid "Show terms on the single product's page"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:267
+msgid "Open product terms in a modal"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:277
+msgid "Open WooCommerce terms in a modal"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:287
+msgid "Hide default WooCommerce Terms"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:297
+msgid "Log User Acceptance"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:313
+msgid "Open product terms in a modal [Premium]"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:324
+msgid "Open WooCommerce terms in a modal [Premium]"
+msgstr ""
+
+#: app/main/class-tacpp4-terms-conditions-settings.php:335
+msgid "Log User Acceptance [Premium]"
+msgstr ""
+
+#: templates/admin-header.php:11
+msgid "Terms and Conditions per Product"
+msgstr ""
+
+#: templates/admin-settings-page.php:10
+msgid "Terms and Conditions per product is a WooCommerce extension."
+msgstr ""
+
+#: templates/admin-settings-page.php:11
+msgid "Please enable the WooCommerce plugin."
+msgstr ""
+
+#: templates/admin-settings-page.php:40
+msgid "Free"
+msgstr ""
+
+#: templates/admin-settings-page.php:42
+msgid "Premium"
+msgstr ""
+
+#: templates/admin-settings-page.php:47
+msgid "Terms and Conditions per product"
+msgstr ""
+
+#: templates/admin-settings-page.php:48
+msgid "Version"
+msgstr ""
+
+#: templates/admin-settings-page.php:52
+msgid "Useful Links"
+msgstr ""
+
+#: templates/admin-settings-page.php:54
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: templates/admin-settings-page.php:55
+msgid "Rate us"
+msgstr ""
+
+#: templates/admin-settings-page.php:57
+#: templates/admin-tacpp-page.php:60
+#: terms-per-product.php:186
+msgid "Support"
+msgstr ""
+
+#: templates/admin-settings-page.php:58
+msgid "Tacpp-pro.com"
+msgstr ""
+
+#: templates/admin-settings-page.php:58
+msgid "WordPress.org"
+msgstr ""
+
+#: templates/admin-settings-page.php:60
+#: templates/admin-tacpp-page.php:52
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin-settings-page.php:61
+#: terms-per-product.php:187
+msgid "Changelog"
+msgstr ""
+
+#: templates/admin-settings-page.php:65
+#: templates/admin-tacpp-page.php:33
+msgid "Terms Priority"
+msgstr ""
+
+#: templates/admin-settings-page.php:66
+#: templates/admin-tacpp-page.php:34
+msgid "The plugin will check for terms and conditions in the following order:"
+msgstr ""
+
+#: templates/admin-settings-page.php:68
+#: templates/admin-tacpp-page.php:36
+msgid "Terms and conditions for the variation (if applicable)."
+msgstr ""
+
+#: templates/admin-settings-page.php:69
+#: templates/admin-tacpp-page.php:37
+msgid "Terms and conditions for the product."
+msgstr ""
+
+#: templates/admin-settings-page.php:70
+#: templates/admin-tacpp-page.php:38
+msgid "Terms and conditions for the product category and tag."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:10
+msgid "Welcome to Terms and Conditions per Product."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:11
+msgid "This plugin allows you to add specific terms and conditions to individual products on your online WooCommerce store."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:12
+msgid "We hope that this plugin will help you provide your customers with clear, concise, and customizable information about the terms and conditions of each product they purchase from your store. "
+msgstr ""
+
+#: templates/admin-tacpp-page.php:16
+msgid "The ability to add terms and conditions to specific products on your WooCommerce store."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:17
+msgid "A customizable terms and conditions checkbox on the checkout page, so customers must agree to the specific terms before completing their purchase."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:18
+msgid "The option to add terms and conditions per product category or tag. [Premium]"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:19
+msgid "The option to show the terms on the product page."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:20
+msgid "The option to show the terms in a modal/popup. [Premium]"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:21
+msgid "Great support."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:46
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:47
+msgid "You are currently using the FREE version of Terms and Conditions per product, Upgrade to Premium, and unlock all the premium features."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:48
+msgid "Get Premium"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:53
+msgid "Just getting started? Don't worry we got you covered. Visit the documentation on our website and learn how you can take advantage of our plugin."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:57
+msgid "View Docs"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:61
+msgid "Let our support team help you with any problem or inquiry you might have."
+msgstr ""
+
+#: templates/admin-tacpp-page.php:62
+msgid "WordPress.org Forum"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:63
+msgid "Open a ticket"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:66
+msgid "Like us?"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:67
+msgid "If you like using Terms and Conditions per Product please leave us a 5-star rating on our WordPress plugin directory plugin page. It will help us a lot!"
+msgstr ""
+
+#: templates/admin-tacpp-page.php:68
+msgid "Rate Us"
+msgstr ""
+
+#: terms-per-product.php:185
+msgid "Docs"
+msgstr ""
